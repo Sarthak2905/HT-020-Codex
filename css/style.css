@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+.btn {
+  background: #27ae60;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  background: #27ae60;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
