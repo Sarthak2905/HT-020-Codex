@@ -1,28 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smart Digital Platform</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>smart-digital-platform</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-<header>
-  <h1>Smart Digital Platform</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="cart.html">Cart</a>
-    <a href="admin.html">Admin</a>
-  </nav>
+<header class="header">
+  <h1>smart-digital-platform</h1>
+  <p>Scan • Order • Relax</p>
 </header>
 
-<section class="hero">
-  <h2>Welcome to Our Online Store</h2>
-  <p>Shop groceries, snacks and beverages easily.</p>
-  <a href="products.html" class="btn">Shop Now</a>
-</section>
+<nav class="category">
+  <button class="active" onclick="filterMenu('all', this)">All</button>
+  <button onclick="filterMenu('Grocery', this)">Grocery</button>
+  <button onclick="filterMenu('Snacks', this)">Snacks</button>
+  <button onclick="filterMenu('VegeTables', this)">VegeTables</button>
+</nav>
 
+<div class="search-box">
+  <input id="searchInput" placeholder="Search menu..." oninput="applyFilters()" />
+</div>
+
+<main id="menu" class="menu"></main>
+
+<a href="cart.html" class="cart-btn">🛒 View Cart</a>
+
+<!-- Toast Notification -->
+<div id="toast" class="toast">
+  <span id="toast-message">Item added to cart</span>
+</div>
+
+<script src="js/menu.js"></script>
 </body>
 </html>
