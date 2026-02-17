@@ -3,12 +3,12 @@ const menuData = [
   { name: "Sugar", category: "Grocery", price: 150, img: "images/Grocery/cold-coffee.jpg" },
   { name: "Oil", category: "Grocery", price: 100, img: "images/Grocery/espresso.jpg" },
 
-  { name: "Veg Sandwich", category: "snacks", price: 90, img: "images/snacks/sandwich.jpg" },
-  { name: "Cheese Burger", category: "snacks", price: 160, img: "images/snacks/burger.jpg" },
+  { name: "Biscuit", category: "snacks", price: 90, img: "images/snacks/sandwich.jpg" },
+  { name: "Chips", category: "snacks", price: 160, img: "images/snacks/burger.jpg" },
   { name: "French Fries", category: "snacks", price: 110, img: "images/snacks/fries.jpg" },
 
-  { name: "Brownie", category: "VegeTables", price: 140, img: "images/VegeTables/brownie.jpg" },
-  { name: "Ice Cream", category: "VegeTables", price: 80, img: "images/VegeTables/icecream.jpg" }
+  { name: "", category: "VegeTables", price: 140, img: "images/VegeTables/brownie.jpg" },
+  { name: "", category: "VegeTables", price: 80, img: "images/VegeTables/icecream.jpg" }
 ];
 
 const menu = document.getElementById("menu");
