@@ -1,14 +1,29 @@
 const menuData = [
-  { name: "Rice", category: "Grocery", price: 120, img: "images/Grocery/cappuccino.jpg" },
-  { name: "Sugar", category: "Grocery", price: 150, img: "images/Grocery/cold-coffee.jpg" },
-  { name: "Oil", category: "Grocery", price: 100, img: "images/Grocery/espresso.jpg" },
+  { name: "Chana dal", category: "Grocery", price: 120, img: "images/Chana dal.jpg" },
+  { name: "Coriander", category: "Grocery", price: 150, img: "images/Coriander.jpg" },
+  { name: "Jaggery", category: "Grocery", price: 100, img: "images/Jaggery.jpg" },
+  { name: "phenyl", category: "Grocery", price: 100, img: "images/phenyl.jpg" },
+  { name: "Sugar", category: "Grocery", price: 100, img: "images/Sugar.jpg" },
+  { name: "sunflower oil", category: "Grocery", price: 100, img: "images/sunflower oil.jpg" },
+  { name: "Turmeric powder", category: "Grocery", price: 100, img: "images/Turmeric powder.jpg" },
+  { name: "wheat", category: "Grocery", price: 100, img: "images/wheat.jpg" },
 
-  { name: "Biscuit", category: "snacks", price: 90, img: "images/snacks/sandwich.jpg" },
-  { name: "Chips", category: "snacks", price: 160, img: "images/snacks/burger.jpg" },
-  { name: "French Fries", category: "snacks", price: 110, img: "images/snacks/fries.jpg" },
+  { name: "Aloo Bhujiya", category: "snacks", price: 90, img: "images/Aloo Bhujiya.jpg" },
+  { name: "Biscuit", category: "snacks", price: 160, img: "images/Biscuit.jpg" },
+  { name: "Chips", category: "snacks", price: 110, img: "images/Chips.jpg" },
+  { name: "Corn Flakes", category: "snacks", price: 110, img: "images/Corn Flakes.jpg" },
+  { name: "oats", category: "snacks", price: 110, img: "images/oats.jpg" },
+  { name: "Pasta", category: "snacks", price: 110, img: "images/Pasta.jpg" },
 
-  { name: "", category: "VegeTables", price: 140, img: "images/VegeTables/brownie.jpg" },
-  { name: "", category: "VegeTables", price: 80, img: "images/VegeTables/icecream.jpg" }
+  { name: "Brinjal", category: "VegeTables", price: 140, img: "images/Brinjal.jpg" },
+  { name: "Cabbage", category: "VegeTables", price: 80, img: "images/Cabbage.jpg" },
+  { name: "Carrot", category: "VegeTables", price: 80, img: "images/Carrot.jpg" },
+  { name: "Garlic", category: "VegeTables", price: 80, img: "images/Garlic.jpg" },
+  { name: "Lady Finger", category: "VegeTables", price: 80, img: "images/Lady Finger.jpg" },
+  { name: "Onion", category: "VegeTables", price: 80, img: "images/Onion.jpg" },
+  { name: "Potato", category: "VegeTables", price: 80, img: "images/Potato.jpg" },
+  { name: "Spinach", category: "VegeTables", price: 80, img: "images/Spinach.jpg" },
+  { name: "Tomato", category: "VegeTables", price: 80, img: "images/Tomato.jpg" },
 ];
 
 const menu = document.getElementById("menu");
